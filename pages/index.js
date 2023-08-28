@@ -2,7 +2,7 @@ import React from 'react';
 
 import { client } from '../lib/client';
 import { Product, FooterBanner, HeroBanner } from '../components';
-
+// fix vercel cd build issue
 const Home = ({ products, bannerData }) => (
   <div>
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
